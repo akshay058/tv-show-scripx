@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
