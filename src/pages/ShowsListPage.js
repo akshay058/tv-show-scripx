@@ -47,6 +47,16 @@ const ShowsListPage = () => {
                   className="img1"
                   alt={show.show.name}
                 />
+              ) ? (
+                show.show.image && (
+                  <img
+                    src={show.show.image.medium}
+                    className="img1"
+                    alt={show.show.name}
+                  />
+                )
+              ) : (
+                <p>No Image</p>
               )}
             </div>
 

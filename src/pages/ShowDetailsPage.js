@@ -51,7 +51,7 @@ const ShowDetailsPage = () => {
             <div className="rightbox">
               <h2 style={{ marginBottom: 30, marginTop: 0 }}>Show Info</h2>
               <p>
-                <b>Network:</b> {show.network.name}
+                <b>Network:</b> {show.network ? show.network.name : "N/A"}
               </p>
               <p>
                 <b>Schedule:</b> {show.schedule.days.join(",")}
